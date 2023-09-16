@@ -1,7 +1,7 @@
 FROM TOPTH0N/FilesSource1:alpine
 
 #clonning repo 
-RUN git clone https://github.com/TOPTH0N/FilesSource1/tree/master.git /root/zthon
+RUN git clone https://github.com/id-6/FilesSource1.git /root/zthon
 #working directory 
 WORKDIR /root/zthon
 
